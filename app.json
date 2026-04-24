@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Calculator",
+    "slug": "safecalc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#000000"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.utils.calculator",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.utils.calculator",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Used for secure authentication",
+        "NSCameraUsageDescription": "Used for presence detection to protect your privacy"
+      }
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-secure-store",
+      "expo-local-authentication",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Calculator to use camera for presence detection"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6f5627b5-d05a-4f5d-a884-7a8fd5ad7306"
+      }
+    }
+  }
+}
