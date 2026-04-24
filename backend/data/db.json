@@ -1,0 +1,179 @@
+{
+  "account": {
+    "id": "demo-primary",
+    "currency": "INR",
+    "openingBalance": 2000
+  },
+  "transactions": [
+    {
+      "id": "txn_seed_1",
+      "type": "credit",
+      "amount": 1500,
+      "category": "salary",
+      "note": "Initial top-up",
+      "createdAt": "2026-04-10T09:00:00.000Z",
+      "phone": "+910000000000"
+    },
+    {
+      "id": "txn_seed_2",
+      "type": "debit",
+      "amount": 700,
+      "category": "food",
+      "note": "Groceries",
+      "createdAt": "2026-04-12T18:15:00.000Z",
+      "phone": "+910000000000"
+    },
+    {
+      "id": "txn_1776516501227_9068",
+      "type": "credit",
+      "amount": 250,
+      "category": "cash_deposit",
+      "note": "Demo add cash",
+      "createdAt": "2026-04-18T12:48:21.227Z",
+      "phone": "+910000000000"
+    },
+    {
+      "id": "txn_1776516504045_5567",
+      "type": "debit",
+      "amount": 120,
+      "category": "food",
+      "note": "Demo spend cash",
+      "createdAt": "2026-04-18T12:48:24.045Z",
+      "phone": "+910000000000"
+    },
+    {
+      "id": "txn_1776516853866_378",
+      "phone": "+919876543210",
+      "type": "credit",
+      "amount": 1000,
+      "category": "cash_deposit",
+      "note": "Added cash",
+      "createdAt": "2026-04-18T12:54:13.866Z"
+    },
+    {
+      "id": "txn_1776516856622_9400",
+      "phone": "+919876543210",
+      "type": "debit",
+      "amount": 275,
+      "category": "food",
+      "note": "Dinner",
+      "createdAt": "2026-04-18T12:54:16.622Z"
+    },
+    {
+      "id": "txn_1776525761335_3007",
+      "phone": "+919876543210",
+      "type": "credit",
+      "amount": 1000,
+      "category": "salary",
+      "note": "Test credit",
+      "createdAt": "2026-04-18T15:22:41.335Z"
+    },
+    {
+      "id": "txn_1776525794449_4314",
+      "phone": "+919876543210",
+      "type": "credit",
+      "amount": 1000,
+      "category": "salary",
+      "note": "Test credit",
+      "createdAt": "2026-04-18T15:23:14.449Z"
+    },
+    {
+      "id": "txn_1776525861752_1729",
+      "phone": "+919876543210",
+      "type": "credit",
+      "amount": 1000,
+      "category": "salary",
+      "note": "Smoke test credit",
+      "createdAt": "2026-04-18T15:24:21.752Z"
+    },
+    {
+      "id": "txn_1776525862212_8434",
+      "phone": "+919876543210",
+      "type": "debit",
+      "amount": 200,
+      "category": "food",
+      "note": "Smoke test debit",
+      "createdAt": "2026-04-18T15:24:22.212Z"
+    },
+    {
+      "id": "txn_1776549439280_3000",
+      "phone": "+919999888877",
+      "type": "credit",
+      "amount": 123.45,
+      "category": "general",
+      "note": "salary test note",
+      "createdAt": "2026-04-18T21:57:19.280Z"
+    },
+    {
+      "id": "txn_1776549509656_7848",
+      "phone": "+919999777766",
+      "type": "credit",
+      "amount": 77.7,
+      "category": "general",
+      "note": "{\"v\":1,\"iv\":\"cotAwX6uoBLZd77c\",\"tag\":\"SU3ZiWiKTxMadxr+enNL3Q==\",\"data\":\"BEYmWgHs6sWKAxUmUJx1GEfU+qk=\"}",
+      "createdAt": "2026-04-18T21:58:29.656Z"
+    },
+    {
+      "id": "txn_1776567313102_7415",
+      "phone": "+919876543210",
+      "type": "credit",
+      "amount": 1000,
+      "category": "salary",
+      "note": "{\"v\":1,\"iv\":\"845P8f2IedzDY/0/\",\"tag\":\"s1Rd/uBF3Z2BV3wc0J0aLQ==\",\"data\":\"hu8EBKRO5r669llZyNmOF/Y=\"}",
+      "createdAt": "2026-04-19T02:55:13.102Z"
+    },
+    {
+      "id": "txn_1776567313610_9782",
+      "phone": "+919876543210",
+      "type": "debit",
+      "amount": 200,
+      "category": "food",
+      "note": "{\"v\":1,\"iv\":\"dh3bggHy32TV9fgv\",\"tag\":\"+wJkK32kAev9CuSWjl81/A==\",\"data\":\"VgXkuEr/Y94se5F296J92A==\"}",
+      "createdAt": "2026-04-19T02:55:13.610Z"
+    }
+  ],
+  "users": [
+    {
+      "phone": "+910000000000",
+      "currency": "INR",
+      "openingBalance": 2000,
+      "profileEnc": "{\"v\":1,\"iv\":\"H0xi6MgSdP6tFL7X\",\"tag\":\"wnVo0HRNZn04iSSUVW65Fg==\",\"data\":\"zlcD1b2Uc4y6mF2ZaYqbHOekvi2CL8C8bPh+YnuJADesqHfBnIdS2Q1Z6sgYZX1faWlS7MW6F5VVr1R/aeOmz5jgGMXB+JQmVVlRBR5VpSn27wg=\"}",
+      "createdAt": "2026-04-18T12:54:05.118Z"
+    },
+    {
+      "phone": "+919876543210",
+      "currency": "INR",
+      "openingBalance": 0,
+      "profileEnc": "{\"v\":1,\"iv\":\"mfjRPkzsOKMlUL1c\",\"tag\":\"UuxBRUCWgJqCqjHFdTpDQA==\",\"data\":\"nuhgw41f3qSUl6uA3qiqQwKrdbkoDvlFP0Yd30MoPrLwTGqVWylaUBBnqvQs1FqG/roTv1ROQHLBRpA+ZobZnXYq7CMQOt+p6N5cb39d/rtKFprNGrBMjrt71mzoEsk86TBQeR7JwuXbbaENf6erQXXHCxb2e3kOWdEXcg==\"}",
+      "createdAt": "2026-04-18T12:54:05.119Z"
+    },
+    {
+      "phone": "+918959605947",
+      "currency": "INR",
+      "openingBalance": 0,
+      "profileEnc": "{\"v\":1,\"iv\":\"aYrRu7XpSw+tt3PJ\",\"tag\":\"lPyABPzkE7hL8jPfhY5bQw==\",\"data\":\"h6URA2BOht1DnWx8h+qfsubw+dFnTNjj4mVyaNNcaeDwfe7iYzP47fACvVS1f2vIOdPRHcvxPLWjo56sMc2TFKX/GzJvCeS0y65hunxScVBLCQ==\"}",
+      "createdAt": "2026-04-18T16:37:59.268Z"
+    },
+    {
+      "phone": "+919999888877",
+      "currency": "INR",
+      "openingBalance": 0,
+      "profileEnc": "{\"v\":1,\"iv\":\"DI0jeH+8HTi7jbA5\",\"tag\":\"JNF9vEAIhWEQxXD027mgUw==\",\"data\":\"fPzUIXwGW+WTvZ1UwEb9t2a5hLmvGiULu/CWeLnINsTiZcdIljmWx2/4dQPCVt+sUJpuDhU9gEqr4/w1PfNuMNjc5Bvv/dautXoWLzzlVOavWRUj2MecJD2E7kw80Bh+kfDXaJJz3J/ALWl8Gm5BUipYK9vSXs+jMxdpE0xU0RsnUUcuVJF4/IhPs1CPe71CEHiPl8eKsVSfNLlEMIMXxwZNwXLmMcu+iUi+RFp/Vf6cDP1T8K0PJkIfKwyPuVYACkC1wrkdVcMnWMa+7D3zoAtgC/o7\"}",
+      "createdAt": "2026-04-18T21:56:06.694Z"
+    },
+    {
+      "phone": "+919999777766",
+      "currency": "INR",
+      "openingBalance": 0,
+      "profileEnc": "{\"v\":1,\"iv\":\"7AcOpToTaFWCkhLK\",\"tag\":\"7OD0f8oDdz6Hjy6+FfpylQ==\",\"data\":\"Gsv4NUlCw87PZ5sdqfVUBsKoWL1elZkOcwcPBkppxRsfEs9NuEuxaGm/j4ZabibW2F3IObg0wbbvo+5ZkIsEj1s7IQk/zzVI3VMjgoziQo+dyA==\"}",
+      "createdAt": "2026-04-18T21:58:29.151Z"
+    },
+    {
+      "phone": "+918962631156",
+      "currency": "INR",
+      "openingBalance": 0,
+      "profileEnc": "{\"v\":1,\"iv\":\"jqvQ0kokII395axp\",\"tag\":\"TMdIiRU7RpDYRqrsKql5lg==\",\"data\":\"qw6AGt5tTMmBG7xd056w42ZJFaIr5HTjAzzpQMqhaibNtxLO48w/rGLnzmUpQVjp7vdXAJEBmeN5+pB3lMet+29m0yjQVHiHbOabbWD3PGDtLQ==\"}",
+      "createdAt": "2026-04-19T06:35:53.031Z"
+    }
+  ]
+}
